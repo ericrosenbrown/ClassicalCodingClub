@@ -2,7 +2,10 @@ This is a ASCII art generator that takes in an image and then outputs an ASCII r
 
 REQUIREMENTS:
 1) Python
-2) PIL - PIL is an imaging library for Python, you can download it for free from http://www.pythonware.com/products/pil/ 
+2) PIL - PIL is an imaging library for Python, you can download it for free from
+
+Windows: http://www.pythonware.com/products/pil/ 
+Mac: https://blog.artooro.com/2013/01/04/how-to-install-pil-python-imaging-library-on-mac-os-x-10-8/
 
 HOW TO USE:
-1) Download the .zip from github and open up bitMapper.py inside of pixel art. Once you have this file, run the main method by giving it the name of your desired image, and it will output the art to a .txt file in the same folder.
+1) Download the .zip from github and open up bitMapper.py inside of ascii_art. Once you have this file, run the main method by giving it the name of your desired image, and it will output the art to a .txt file in the same folder.
