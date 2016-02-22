@@ -3,11 +3,10 @@ from PIL import Image
 
 
 """
-The main function to turn images into pixel art.
+The main function to turn images into ascii art.
 This function takes in a string, which is the filepath to the image
 """
 def main(fileImage):
-    finalString = "" #This string will hold the final ascii art
 
     #These next two lines are for loading the picture into python
     im = Image.open(fileImage).convert("L")
@@ -20,13 +19,12 @@ def main(fileImage):
     #These two for loops loop through the pixels in the image from top-down left-right
     for x in range(im.size[1]):
         for y in range(im.size[0]):
-            pictures.append(wFill(pix[y,x])) #Assign an ascii value to each pixel
+            pictures.append(blackAndWhite(pix[y,x])) #Assign an ascii value to each pixel
         pictures.append("\n") #Add blankspace in string to add new row of ascii characters
 
     f = open("obama.txt",'wb') #Open the .txt file to write to
     for x in range(len(pictures)): #For each of the rows in the ascii art, write them to file
         f.write(pictures[x])
-        finalString += pictures[x]
     
 def shading(value):
     if value == 0:
