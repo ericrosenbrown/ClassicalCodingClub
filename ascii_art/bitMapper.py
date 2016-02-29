@@ -22,10 +22,17 @@ class ASCIIart:
         #These two for loops loop through the pixels in the image from top-down left-right
         for x in range(im.size[1]):
             for y in range(im.size[0]):
+<<<<<<< HEAD
                 pictures.append(self.shading(pix[y,x])) #Assign an ascii value to each pixel
             pictures.append("\n") #Add blankspace in string to add new row of ascii characters
 
         f = open("eric.txt",'wb') #Open the .txt file to write to
+=======
+                pictures.append(self.blackAndWhite(pix[y,x])) #Assign an ascii value to each pixel
+            pictures.append("\n") #Add blankspace in string to add new row of ascii characters
+
+        f = open("example.txt",'wb') #Open the .txt file to write to
+>>>>>>> 30d020d4ef0598616cc8d69ee42e1b066b0a6f65
         for x in range(len(pictures)): #For each of the rows in the ascii art, write them to file
             f.write(pictures[x])
         
