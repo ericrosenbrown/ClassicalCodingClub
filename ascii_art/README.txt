@@ -8,4 +8,8 @@ Windows: http://www.pythonware.com/products/pil/
 Mac: https://blog.artooro.com/2013/01/04/how-to-install-pil-python-imaging-library-on-mac-os-x-10-8/
 
 HOW TO USE:
-1) Download the .zip from github and open up bitMapper.py inside of ascii_art. Once you have this file, run the main method by giving it the name of your desired image, and it will output the art to a .txt file in the same folder.
+1) Download the .zip from github and open up bitMapper.py inside of ascii_art. Once you have this file, you can run the program by saving the code, and then running the following command in IDLE, where path_to_file is the name of the file path to the photo you want to convert:
+
+ASCIIart().main(path_to_file).
+
+This will save the resulting image in a .txt file.
