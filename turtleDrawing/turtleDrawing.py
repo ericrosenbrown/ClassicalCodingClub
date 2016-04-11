@@ -14,6 +14,7 @@ def spiral():
       size = size + 3          # Increase the size on every iteration
       tess.forward(size)       # Move tess along
       tess.right(24)           #  ...  and turn her
+   turtle.done()
 
 def square():
    silly = turtle.Turtle()
@@ -77,3 +78,5 @@ def lineCircle():
        ninja.right(2)
        
    turtle.done()
+
+lineCircle()
