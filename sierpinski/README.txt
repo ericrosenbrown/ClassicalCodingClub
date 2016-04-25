@@ -1,0 +1,1 @@
+The sierpinski triangle is a fractal pattern that can have infinite resolution depending on how long you let the program run. For more indepth explanation and source of the code for this project can be found here: http://interactivepython.org/runestone/static/pythonds/Recursion/pythondsSierpinskiTriangle.html
